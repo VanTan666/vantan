@@ -1,0 +1,107 @@
+body, h1, h2, h3, h4 {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: black;
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+.page {
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    color: rgb(56, 56, 56);
+}
+
+
+
+.avatar {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    border-radius: 50%;
+    border: 3px white solid;
+    max-width: 300px;
+    width: 100%;
+}
+
+.avatar-ds {
+    width: 64px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+}
+
+
+
+.title {
+    text-align: center;
+}
+
+.title-h3 {
+    color: white;
+    text-align: center;
+}
+
+.title-h3:hover {
+    color: red;
+}
+
+.text {
+    display: inline-block;
+    margin: 0 auto;
+    color: white;
+}
+
+.container {
+    margin: 20px auto;
+    width: 400px;
+    text-align: center;
+}
+
+.skills {
+    display: block;
+    max-width: 200px;
+    margin: 25px auto;
+}
+
+
+
+
+
+
+
+/* Button */
+
+.button {
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    padding: 15px 70px;
+    border: 5px solid #B17461;
+    color: #B17461;
+    font-size: 30px;
+    font-family: arial;
+    background-image: linear-gradient(#B17461, #B17461);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    max-width: 250px;
+    max-height: 150px;
+    transition: background-size .5s, color .5s;
+    margin-top: 25px;
+  }
+  .button:hover {
+    background-size: 100% 100%;
+    color: #fff;
+  }
+
